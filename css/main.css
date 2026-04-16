@@ -1,0 +1,166 @@
+li a{
+
+    text-decoration: none;
+    color:white;
+    margin: 0px;
+    padding: auto;
+    display: inline-block;
+    text-align: center;
+    max-height: 8vh;
+    box-sizing: border-box;
+}
+
+li a:hover{
+    color:black;
+    background-color: whitesmoke;
+    height: auto;
+    max-height: 8vh;
+    box-sizing: border-box;
+}
+
+li a.active{
+    color:white;
+    background-color: navy;
+    max-height: 8vh;
+    box-sizing: border-box;
+}
+
+nav ul{
+    padding-inline-start:0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin: 0;
+}
+
+@media (max-width: 800px) {
+    li a {padding: 3.125vh 2vw; font-size: 1.75vh; height:1.75vh;}
+    img{
+        max-width: 90%;
+    }
+}
+@media (min-width: 801px) {
+    li a {font-size: 2.5vh;
+        padding: 2.75vh 3vw;}
+    footer a{
+        font-size: 1.5vw;
+    }
+}
+nav ul li{
+    display: inline;
+    margin:0;
+}
+.content-wraper{
+    margin-bottom:10vh;
+    background-color: none;
+}
+.header{
+    margin: 1vw;
+}
+
+.comment{
+    width:90%;
+    height: 25%;
+}
+
+
+nav{
+    background-color: rgb(100,100,100);
+
+    outline: 2px solid black;
+    top: 0;
+    z-index: 10;
+    margin:0;
+    width: 100%;
+    height: 8vh;
+    position: fixed;
+    text-align: center;
+}
+
+footer a:hover{
+    color: purple;
+}
+table, tr{
+    border: 1px solid;
+    border-collapse:collapse;
+
+}
+body {
+
+    min-height: 89vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    display: flex; 
+    flex-direction: column;
+
+
+    margin-top: 11vh;
+    background-attachment: fixed;
+  }
+
+
+footer{
+    background-color: rgb(180,180,180);
+    text-align: center;
+    border-top:2px solid black;
+    position: relative;
+
+    width: 100%;
+    bottom: 0vh;
+    height: 10vh;
+    font-size: 3.5vw;
+    margin-top: auto;
+    border-bottom : 0;
+    padding-bottom: 0;
+}
+footer a{
+    display: inline-block
+}
+
+img {
+    height: 24vh;
+}
+
+div{
+    height: auto;
+    background-color: whitesmoke;
+    margin: 2vw;
+    opacity: 90%;
+    padding:1px 0.5vw;
+}
+
+.floatLeft{
+    float: left
+}
+
+.answer{
+    opacity: 0%;
+}
+.answer:hover{
+    opacity: 100%;
+}
+
+
+
+div a img{
+    height: 10vh;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.diagram{
+    height: 48vh;
+    float: left;
+}
+.stopFloat{
+    float: none;
+}
+.fixes{
+    transform: translate(2vw);
+}
+.clearFloat{
+    clear: left;
+}
+.testing2{
+    height:30.7vh;
+}

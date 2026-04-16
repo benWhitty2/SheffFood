@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Uni Of Sheff food and Drink</title>
+    <link rel = "stylesheet" href = "../css/main.css">
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+</head>
+
+<body style ='background-image: url("../images/testing.jfif")'>
+    <nav>
+        <ul
+            ><li><a href = "index.html">Home</a></li
+            ><li><a href = "locations.html">Food Locations</a></li
+            ><li><a href = "picnic.html">Picnic Locations</a></li
+            ><li><a href = "quiz.html">Quiz</a></li
+        ></ul>
+    </nav>
+
+    <div class="header">
+        <h1>
+            Testing
+        </h1>
+    </div>
+    <div>
+        <h2>Optimization</h2>
+        <p>The website uses almost no line breaks opting for css rules to position the content where possible, minimal and somewhat low resolution pictures to avoid loading unnecessary content.
+            I have used Google's built in mobile development tools to test the website through a range of mobile performances and viewports to check the loading times for each page when realistic or worse resources are available.
+            I have used the html prefetching function on the index page to preload images and the other content pages in the header to the users browser so they do not have to wait for these more intensive pages to load.
+            However I have not performed this for the non-content pages in the footer as to not lag the users browser and use up their and the web servers bandwidth when the site is first launched unnecessary,
+            because these pages are less likely to be visited as most users will be uninterested.</p>
+        <h2>Debugging</h2>
+        <p>All links for locations and for menus have been tested on each page to ensure that they function correctly.
+            I have tested the website over a range of viewports to ensure that menus remain consistent and functional.
+        </p>
+        <h3>Index page bugs</h3>
+        <img src="../images/testing1.PNG" class="diagram">
+        <h3>Fixes</h3><ol class="fixes"><li>I surrounded the content of all my files in a "html" wrapper and gave it the land="en" attribute</li>
+            <li>placed a "meta charset=UTF-8" tag in the header of each html file</li>
+            <li>Placed a "!DOCTYPE html" tag at the start of all html files</li>
+            <li>remove all unnecessary slashes on every page</li>
+            <li>changed the ul to at /ul</li>
+            <li>added a alternate text describing the brick building in the image</li>
+            <li>all other errors have been resolved by previous fixes</li>
+
+    </ol>
+    <br class="clearFloat">
+        <img class="testing2" src="../images/testing2.PNG">
+        <h3>Food Locations page bugs</h3>
+        <img src="../images/testing3.PNG" class="floatLeft">
+        <h3>Fixes</h3><ol class="fixes">
+            <li>added a description of the student union to the alt of the image</li>
+            <li>added the alt a "button giving directions to the location via google maps"(did this for the picnic page too)</li>
+        </ol>
+        <h3 class="clearFloat">Picnic Locations page bugs</h3>
+        <img src="../images/testing4.PNG" class="floatLeft">
+        <h3>Fixes</h3>
+        <ol class="fixes">
+            <li>spaced properly</li>
+            <li>error has no impact on webpage so will remain unfixed</li>
+            </ol>
+        <h3 class="clearFloat">Quiz page bugs</h3>
+        <img src="../images/testing5.PNG" class="diagram">
+        <h3>Fixes</h3>
+        <ol class="fixes">
+            <li>error has no impact on webpage so will remain unfixed</li>
+            <li>Have changed the answer id into a class to reflect that it is used for multiple values by replacing all # with . and "id" with "class".</li>
+        </ol>
+
+        <h2 class="clearFloat">Browser Testing</h2>
+        <p>the website works perfectly on google chrome and microsoft edge, but has some difficulty with the position of the footer on firefox but still displays all its content and retains all functionality</p>
+        
+        <h2>Accessibility</h2>
+        <h3>Index page</h3>
+        <img src="../images/accessablity1.PNG" class="diagram">
+        <h3>Fixes</h3>
+        <ol class="fixes">
+            <li>fixed the contrast in the header by changing the gray from the default value to a darker rgb(100, 100, 100) to make the white more visible</li>
+            <li>changed the colour of footer from default gray value to a lighter rgb(180, 180, 180) value to contrast better with the purple links</li>
+            <li>the long alternate text is required to give a useful description of the image</li>   
+        </ol>
+        <br class = "clearFloat">
+        <br>
+    </div>
+
+    <footer>
+        <a href ="contact.html">Contact</a>
+        <a href="legalAndSecurity.html">Legal and Security</a>
+        <a href="design.html">Design</a>
+        <a href="testing.html">Testing</a>
+        <a href="accessibility.html">Accessibility</a>
+    </footer>
+</body>
+</html>
